@@ -1,4 +1,4 @@
-package com.nexorithmm.basics;
+package com.nexorithmm.java.basics;
 
 public class ElseIfLadder {
     public static void main(String[] args) {
