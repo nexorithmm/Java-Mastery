@@ -1,21 +1,62 @@
-# ☕ Java-Mastery
+# ☕ Java Mastery
 
-Welcome to **Java-Mastery**, a structured repository designed to help you master Java from the basics to advanced concepts.
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Maven](https://img.shields.io/badge/Maven-Build-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Java--Mastery-black)
+![Status](https://img.shields.io/badge/Status-Learning-success)
 
-## Topics Covered
-- Variables & Data Types
+---
+
+A structured Java learning repository covering Java from beginner to advanced with clean examples, interview questions, notes, and practice programs.
+
+---
+
+## 📚 Topics
+
+- Java Basics
+- Variables
+- Data Types
 - Operators
-- Control Statements
+- Conditional Statements
 - Loops
-- Arrays & Strings
+- Arrays
 - Methods
-- Object-Oriented Programming (OOP)
+- OOP
 - Exception Handling
-- Collections Framework
-- File Handling
-- Java 8 Features
-- Mini Projects
+- Collections
+- Java 8+
 
-This repository is organized topic-by-topic with clean code, explanations, and interview-focused examples.
+---
 
-🚀 Learn • Build • Master
+## 📂 Repository Structure
+
+- 📘 NOTES.md
+- 📈 PROGRESS.md
+- 📜 CHANGELOG.md
+- 💻 Source Code
+
+---
+
+## 📂 Repository Documents
+
+| Document | Description |
+|----------|-------------|
+| 📘 NOTES.md | Topic-wise Notes |
+| 📈 PROGRESS.md | Learning Progress |
+| 📜 CHANGELOG.md | Repository Updates |
+| 💼 INTERVIEW.md | Interview Questions |
+| 📚 RESOURCES.md | Learning Resources |
+
+
+
+
+## 🎯 Goals
+
+- Learn Java from Basics to Advanced
+- Write Clean and Readable Code
+- Prepare for Technical Interviews
+- Build Strong Programming Fundamentals
+- Create a Professional GitHub Portfolio
+---
+
+### 🚀 Build • Learn • Improve
