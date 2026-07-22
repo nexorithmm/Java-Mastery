@@ -37,6 +37,11 @@ A structured Java learning repository covering Java from beginner to advanced wi
 
 ---
 
+## ✅ Completed Topics
+
+- Java #001 - Introduction to Java
+- Java #002 - JDK, JRE & JVM
+
 ## 📂 Repository Documents
 
 | Document | Description |

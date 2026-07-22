@@ -13,6 +13,15 @@
 
 ---
 
-## Java #002
+## Java #002 - JDK, JRE & JVM
 
-Coming Soon...
+### Added
+
+- Learned JDK, JRE & JVM
+- Understood Java execution flow
+- Learned Bytecode
+- Learned WORA
+- Added interview questions
+- Updated notes
+- Updated cheat sheet
+- Created Instagram Post #002

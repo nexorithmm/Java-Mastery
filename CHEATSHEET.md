@@ -70,3 +70,30 @@ Write Once, Run Anywhere
 ✔ WORA
 
 ✔ Object-Oriented
+
+
+# ☕ Java #002 - JDK, JRE & JVM
+
+✔ JDK = Java Development Kit
+
+✔ JRE = Java Runtime Environment
+
+✔ JVM = Java Virtual Machine
+
+✔ javac → Compiler
+
+✔ .java → Source Code
+
+✔ .class → Bytecode
+
+✔ JVM executes Bytecode
+
+✔ WORA = Write Once, Run Anywhere
+
+Memory Trick
+
+JDK → Develop
+
+JRE → Run
+
+JVM → Execute
