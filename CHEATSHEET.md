@@ -97,3 +97,43 @@ JDK → Develop
 JRE → Run
 
 JVM → Execute
+
+
+# Java #003 Cheat Sheet
+
+## Package
+```java
+package com.nexorithmm.java.basics;
+```
+
+## Class
+```java
+public class FirstJavaProgram
+```
+
+## Main Method
+```java
+public static void main(String[] args)
+```
+
+## Print Output
+```java
+System.out.println("Hello");
+```
+
+## Print Without New Line
+```java
+System.out.print("Hello");
+```
+
+## Print With New Line
+```java
+System.out.println("World");
+```
+
+## Output
+```
+Hello
+World
+```
+

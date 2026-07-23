@@ -182,3 +182,78 @@ This is known as:
 - JRE is for running applications.
 - JVM executes bytecode.
 - Java is platform independent because of the JVM.
+
+# Java #003 - First Java Program
+
+## Objective
+Learn how to write and execute the first Java program.
+
+## Program Structure
+
+```java
+package com.nexorithmm.java.basics;
+
+public class FirstJavaProgram {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello, Nexorithmm!");
+
+    }
+
+}
+```
+
+## Explanation
+
+### Package
+- Organizes related Java classes.
+- Example:
+  ```
+  com.nexorithmm.java.basics
+  ```
+
+### Class
+- Blueprint of a Java object.
+- Naming convention: PascalCase.
+
+### Main Method
+```java
+public static void main(String[] args)
+```
+- Entry point of every Java application.
+
+### System.out.println()
+- Prints output to the console.
+- Moves the cursor to the next line after printing.
+
+### print() vs println()
+
+```java
+System.out.print("Java");
+System.out.print("Mastery");
+```
+
+Output:
+```
+JavaMastery
+```
+
+```java
+System.out.println("Java");
+System.out.println("Mastery");
+```
+
+Output:
+```
+Java
+Mastery
+```
+
+## Key Takeaways
+
+- Every Java program starts from the `main()` method.
+- Java code is written inside a class.
+- `System.out.println()` is used to display output.
+- Package names should be lowercase.
+- Class names should follow PascalCase.

@@ -25,3 +25,12 @@
 - Updated notes
 - Updated cheat sheet
 - Created Instagram Post #002
+
+## Java #003 - First Java Program
+
+### Added
+- Created FirstJavaProgram class.
+- Learned Java program structure.
+- Understood package declaration.
+- Learned the main() method.
+- Practiced print() and println().

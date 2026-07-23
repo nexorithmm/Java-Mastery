@@ -39,8 +39,9 @@ A structured Java learning repository covering Java from beginner to advanced wi
 
 ## ✅ Completed Topics
 
-- Java #001 - Introduction to Java
-- Java #002 - JDK, JRE & JVM
+- ✅ Java #001 - Introduction to Java
+- ✅ Java #002 - JDK, JRE & JVM
+- ✅ Java #003 - First Java Program
 
 ## 📂 Repository Documents
 
