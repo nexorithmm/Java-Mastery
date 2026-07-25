@@ -137,3 +137,38 @@ Hello
 World
 ```
 
+# Java #004 Cheat Sheet
+
+## Declare Variable
+
+```java
+int age;
+```
+
+## Initialize Variable
+
+```java
+int age = 18;
+```
+
+## Update Variable
+
+```java
+age = 20;
+```
+
+## Syntax
+
+```java
+dataType variableName = value;
+```
+
+## Examples
+
+```java
+String name = "Karthik";
+int age = 24;
+double salary = 50000.50;
+char grade = 'A';
+boolean isStudent = true;
+```

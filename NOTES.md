@@ -257,3 +257,90 @@ Mastery
 - `System.out.println()` is used to display output.
 - Package names should be lowercase.
 - Class names should follow PascalCase.
+
+
+# Java #004 - Variables
+
+## Objective
+
+Learn how to declare, initialize, update, and use variables in Java.
+
+---
+
+## What is a Variable?
+
+A variable is a named memory location used to store data.
+
+Syntax:
+
+```java
+dataType variableName = value;
+```
+
+Example:
+
+```java
+int age = 18;
+String name = "Arjun Sarkar";
+double height = 5.6;
+char grade = 'A';
+boolean isStudent = true;
+```
+
+---
+
+## Updating Variables
+
+Variables can change their values during program execution.
+
+```java
+age = 20;
+name = "Sarkar";
+height = 6.0;
+grade = 'O';
+isStudent = false;
+```
+
+---
+
+## Variable Naming Rules
+
+### Valid
+
+```java
+studentName
+employeeSalary
+mobileNumber
+age
+```
+
+### Invalid
+
+```java
+1age
+student name
+class
+```
+
+---
+
+## Naming Convention
+
+Use **camelCase** for variable names.
+
+Examples:
+
+```java
+studentName
+employeeSalary
+isStudent
+```
+
+---
+
+## Key Points
+
+- Variables store data.
+- Variables can be updated.
+- Variable names should be meaningful.
+- Follow camelCase naming convention.

@@ -34,3 +34,14 @@
 - Understood package declaration.
 - Learned the main() method.
 - Practiced print() and println().
+
+
+## Java #004 - Variables
+
+### Added
+
+- Learned Java variables.
+- Declared variables using different data types.
+- Updated variable values.
+- Practiced variable naming conventions.
+- Added interview notes and cheat sheet.

@@ -102,3 +102,42 @@ A standalone Java application requires a `main()` method as the entry point.
 ### 5. Why do we use packages?
 
 Packages help organize classes and avoid naming conflicts.
+
+
+# Java #004 Interview Questions
+
+### 1. What is a variable?
+
+A variable is a named memory location used to store data.
+
+---
+
+### 2. Can we change a variable's value?
+
+Yes. Variables can be updated during program execution.
+
+---
+
+### 3. What is the syntax for declaring a variable?
+
+```java
+dataType variableName = value;
+```
+
+---
+
+### 4. Which naming convention is used for variables?
+
+camelCase
+
+Example:
+
+```java
+studentName
+```
+
+---
+
+### 5. Can two variables have the same name in the same scope?
+
+No. Variable names must be unique within the same scope.
