@@ -141,3 +141,77 @@ studentName
 ### 5. Can two variables have the same name in the same scope?
 
 No. Variable names must be unique within the same scope.
+-
+
+# Java #005 - Interview Questions
+
+## Q1. What is a data type?
+
+A data type defines the type of value that a variable can store.
+
+---
+
+## Q2. How many categories of data types are there in Java?
+
+Two:
+
+- Primitive
+- Non-Primitive
+
+---
+
+## Q3. How many primitive data types are there in Java?
+
+There are **8** primitive data types.
+
+---
+
+## Q4. Name the primitive data types.
+
+- byte
+- short
+- int
+- long
+- float
+- double
+- char
+- boolean
+
+---
+
+## Q5. What is the difference between Primitive and Non-Primitive data types?
+
+Primitive data types store actual values, whereas non-primitive data types store references to objects.
+
+---
+
+## Q6. Is String a primitive data type?
+
+No.
+
+String is a Non-Primitive data type.
+
+---
+
+## Q7. Which data type stores decimal numbers?
+
+- float
+- double
+
+---
+
+## Q8. Which data type stores a single character?
+
+char
+
+---
+
+## Q9. Which data type stores true or false?
+
+boolean
+
+---
+
+## Q10. Which data type is commonly used for text?
+
+String

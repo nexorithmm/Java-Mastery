@@ -344,3 +344,81 @@ isStudent
 - Variables can be updated.
 - Variable names should be meaningful.
 - Follow camelCase naming convention.
+-
+
+# Java #005 - Data Types
+
+## What is a Data Type?
+
+A data type specifies the type of value that a variable can store.
+
+Example:
+
+```java
+int age = 20;
+String name = "Arjun Sarkar";
+```
+
+---
+
+## Types of Data Types
+
+Java has two categories of data types:
+
+### 1. Primitive Data Types
+
+Primitive data types store actual values.
+
+There are **8 primitive data types**:
+
+| Data Type | Size | Example |
+|-----------|------|---------|
+| byte | 1 byte | `byte age = 20;` |
+| short | 2 bytes | `short marks = 450;` |
+| int | 4 bytes | `int salary = 50000;` |
+| long | 8 bytes | `long population = 8000000000L;` |
+| float | 4 bytes | `float pi = 3.14f;` |
+| double | 8 bytes | `double price = 99.99;` |
+| char | 2 bytes | `char grade = 'A';` |
+| boolean | JVM dependent | `boolean isPlaced = true;` |
+
+---
+
+### 2. Non-Primitive Data Types
+
+Non-Primitive data types store references to objects.
+
+Example:
+
+```java
+String name = "Arjun Sarkar";
+```
+
+Other Non-Primitive Data Types:
+
+- Arrays
+- Classes
+- Objects
+- Interfaces
+- Enums
+
+These topics will be covered in upcoming lessons.
+
+---
+
+## Why are Data Types Important?
+
+- Store data efficiently
+- Improve memory management
+- Prevent invalid assignments
+- Improve code readability
+- Help Java perform type checking
+
+---
+
+## Summary
+
+- Java has two categories of data types.
+- Primitive data types store actual values.
+- Non-Primitive data types store references.
+- String is the most commonly used non-primitive data type.v

@@ -172,3 +172,41 @@ double salary = 50000.50;
 char grade = 'A';
 boolean isStudent = true;
 ```
+
+# Java #005 - Data Types Cheat Sheet
+
+## Primitive Data Types
+
+| Type | Size | Example |
+|------|------|---------|
+| byte | 1 byte | `byte age = 20;` |
+| short | 2 bytes | `short marks = 450;` |
+| int | 4 bytes | `int salary = 50000;` |
+| long | 8 bytes | `long population = 8000000000L;` |
+| float | 4 bytes | `float pi = 3.14f;` |
+| double | 8 bytes | `double price = 99.99;` |
+| char | 2 bytes | `char grade = 'A';` |
+| boolean | JVM dependent | `boolean isPlaced = true;` |
+
+---
+
+## Non-Primitive Data Types
+
+- String
+- Arrays
+- Classes
+- Objects
+- Interfaces
+- Enums
+
+---
+
+## Example
+
+```java
+int age = 20;
+double price = 99.99;
+char grade = 'A';
+boolean isPlaced = true;
+String name = "Arjun Sarkar";
+```

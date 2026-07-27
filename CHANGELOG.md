@@ -45,3 +45,19 @@
 - Updated variable values.
 - Practiced variable naming conventions.
 - Added interview notes and cheat sheet.
+-
+
+# Changelog
+
+## Java #005 - Data Types
+
+### Added
+
+- Introduced Java Data Types.
+- Explained Primitive Data Types.
+- Explained Non-Primitive Data Types.
+- Added examples for all 8 primitive data types.
+- Added a String example for Non-Primitive Data Types.
+- Documented primitive data type sizes.
+- Added interview questions.
+- Updated repository progress.
