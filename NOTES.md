@@ -421,4 +421,108 @@ These topics will be covered in upcoming lessons.
 - Java has two categories of data types.
 - Primitive data types store actual values.
 - Non-Primitive data types store references.
-- String is the most commonly used non-primitive data type.v
+- String is the most commonly used non-primitive data type.
+-
+
+# Java #006 - Type Casting
+
+## What is Type Casting?
+
+Type Casting is the process of converting a value from one data type to another.
+
+Example:
+
+```java
+int number = 100;
+double value = number;
+```
+
+Here, the integer value is automatically converted into a double.
+
+---
+
+## Types of Type Casting
+
+### 1. Widening (Implicit Casting)
+
+- Performed automatically by Java.
+- Converts a smaller data type into a larger data type.
+- No data loss occurs.
+
+Example:
+
+```java
+int number = 100;
+double value = number;
+```
+
+Output:
+
+```
+100.0
+```
+
+---
+
+### 2. Narrowing (Explicit Casting)
+
+- Performed manually by the programmer.
+- Converts a larger data type into a smaller data type.
+- Data loss may occur.
+
+Example:
+
+```java
+double price = 99.99;
+int amount = (int) price;
+```
+
+Output:
+
+```
+99
+```
+
+---
+
+## Widening Conversion Order
+
+```
+byte
+  ↓
+short
+  ↓
+int
+  ↓
+long
+  ↓
+float
+  ↓
+double
+```
+
+---
+
+## Advantages
+
+- Automatic conversion between compatible types.
+- Improves code flexibility.
+- Useful in calculations and method calls.
+
+---
+
+## Disadvantages
+
+- Narrowing may lose data.
+- Explicit casting requires programmer attention.
+- Precision can be reduced.
+
+---
+
+## Real-World Uses
+
+- Mathematical calculations
+- Database operations
+- API responses
+- Financial applications
+- Scientific calculations 

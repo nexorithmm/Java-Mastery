@@ -215,3 +215,67 @@ boolean
 ## Q10. Which data type is commonly used for text?
 
 String
+-
+
+# Java Type Casting Interview Questions
+
+## Q1. What is Type Casting?
+
+Type Casting is the process of converting one data type into another.
+
+---
+
+## Q2. How many types of Type Casting are there?
+
+- Widening (Implicit)
+- Narrowing (Explicit)
+
+---
+
+## Q3. What is Widening?
+
+Automatic conversion from a smaller data type to a larger data type.
+
+Example:
+
+```java
+int number = 10;
+double value = number;
+```
+
+---
+
+## Q4. What is Narrowing?
+
+Manual conversion from a larger data type to a smaller data type.
+
+Example:
+
+```java
+double value = 10.5;
+int number = (int) value;
+```
+
+---
+
+## Q5. Does Widening cause data loss?
+
+No.
+
+---
+
+## Q6. Why can Narrowing cause data loss?
+
+Because a larger data type is converted into a smaller data type, some information may be discarded.
+
+---
+
+## Q7. Which operator is used for Explicit Casting?
+
+Parentheses ()
+
+Example:
+
+```java
+int number = (int) 12.8;
+```

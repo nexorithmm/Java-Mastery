@@ -61,3 +61,17 @@
 - Documented primitive data type sizes.
 - Added interview questions.
 - Updated repository progress.
+
+-
+
+## Java #006 - Type Casting
+
+### Added
+
+- Widening (Implicit Casting)
+- Narrowing (Explicit Casting)
+- Practical examples
+- Console output demonstration
+- Notes
+- Cheat Sheet
+- Interview Questions

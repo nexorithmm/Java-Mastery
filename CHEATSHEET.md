@@ -210,3 +210,52 @@ char grade = 'A';
 boolean isPlaced = true;
 String name = "Arjun Sarkar";
 ```
+
+
+# Java Type Casting Cheat Sheet
+
+## Syntax
+
+### Widening
+
+```java
+int number = 100;
+double value = number;
+```
+
+### Narrowing
+
+```java
+double price = 99.99;
+int amount = (int) price;
+```
+
+---
+
+## Widening
+
+✔ Automatic
+
+✔ Safe
+
+✔ No data loss
+
+---
+
+## Narrowing
+
+✔ Manual
+
+✔ Explicit casting required
+
+✔ Possible data loss
+
+---
+
+## Keywords
+
+- Implicit Casting
+- Explicit Casting
+- Widening
+- Narrowing
+- Data Loss
