@@ -259,3 +259,39 @@ int amount = (int) price;
 - Widening
 - Narrowing
 - Data Loss
+-
+
+# Java #007 – Arithmetic Operators Cheat Sheet
+
+## Operators
+
+```text
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+%   Modulus
+```
+
+---
+
+## Example
+
+```java
+int a = 20;
+int b = 10;
+
+System.out.println(a + b);
+System.out.println(a - b);
+System.out.println(a * b);
+System.out.println(a / b);
+System.out.println(a % b);
+```
+
+---
+
+## Remember
+
+- `/` → Quotient
+- `%` → Remainder
+- Integer ÷ Integer = Integer

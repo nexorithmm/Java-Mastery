@@ -42,6 +42,10 @@ A structured Java learning repository covering Java from beginner to advanced wi
 - ✅ Java #001 - Introduction to Java
 - ✅ Java #002 - JDK, JRE & JVM
 - ✅ Java #003 - First Java Program
+- ✅ Java #004 – Variables
+- ✅ Java #005 – Data Types
+- ✅ Java #006 – Type Casting
+- ✅ Java #007 – Arithmetic Operators
 
 ## 📂 Repository Documents
 

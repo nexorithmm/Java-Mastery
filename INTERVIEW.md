@@ -279,3 +279,61 @@ Example:
 ```java
 int number = (int) 12.8;
 ```
+
+
+# Java #007 – Interview Questions
+
+## Q1. Which operator returns the remainder after division?
+
+A. /
+B. %
+C. *
+D. +
+
+✅ Answer: B
+
+---
+
+## Q2. What is the output?
+
+```java
+int a = 15;
+int b = 4;
+
+System.out.println(a % b);
+```
+
+✅ Output:
+
+```text
+3
+```
+
+---
+
+## Q3. What is the output?
+
+```java
+int a = 20;
+int b = 5;
+
+System.out.println(a / b);
+```
+
+✅ Output:
+
+```text
+4
+```
+
+---
+
+## Q4. Which operator performs multiplication?
+
+✅ *
+
+---
+
+## Q5. What happens when two integers are divided?
+
+The decimal part is discarded because integer division returns an integer.

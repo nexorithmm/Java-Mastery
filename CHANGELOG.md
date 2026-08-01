@@ -47,7 +47,6 @@
 - Added interview notes and cheat sheet.
 -
 
-# Changelog
 
 ## Java #005 - Data Types
 
@@ -64,6 +63,7 @@
 
 -
 
+
 ## Java #006 - Type Casting
 
 ### Added
@@ -75,3 +75,16 @@
 - Notes
 - Cheat Sheet
 - Interview Questions
+-
+
+## Java #007 – Arithmetic Operators
+
+### Added
+
+- Arithmetic Operators Introduction
+- Java Program
+- Output
+- Cheat Sheet
+- Interview Questions
+- Progress Update
+- Real-World Applications

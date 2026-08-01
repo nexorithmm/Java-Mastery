@@ -525,4 +525,95 @@ double
 - Database operations
 - API responses
 - Financial applications
-- Scientific calculations 
+- Scientific calculations
+-
+
+# Java #007 – Arithmetic Operators
+
+## 📖 Introduction
+
+Arithmetic operators are used to perform basic mathematical operations on numeric values in Java.
+
+These operators are commonly used in calculations, loops, conditions, and problem-solving.
+
+---
+
+## 🔢 Arithmetic Operators
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| + | Addition | a + b |
+| - | Subtraction | a - b |
+| * | Multiplication | a * b |
+| / | Division | a / b |
+| % | Modulus (Remainder) | a % b |
+
+---
+
+## 💻 Java Program
+
+```java
+public class ArithmeticOperatorsExample {
+
+    public static void main(String[] args) {
+
+        int a = 20;
+        int b = 10;
+
+        System.out.println("=========================");
+        System.out.println("   Arithmetic Operators");
+        System.out.println("=========================");
+
+        System.out.println("Value of A : " + a);
+        System.out.println("Value of B : " + b);
+
+        System.out.println();
+
+        System.out.println("Addition       : " + (a + b));
+        System.out.println("Subtraction    : " + (a - b));
+        System.out.println("Multiplication : " + (a * b));
+        System.out.println("Division       : " + (a / b));
+        System.out.println("Modulus        : " + (a % b));
+    }
+}
+```
+
+---
+
+## 🖥️ Output
+
+```text
+=========================
+   Arithmetic Operators
+=========================
+Value of A : 20
+Value of B : 10
+
+Addition       : 30
+Subtraction    : 10
+Multiplication : 200
+Division       : 2
+Modulus        : 0
+```
+
+---
+
+## 🌍 Real-World Applications
+
+- Calculator applications
+- Billing systems
+- Banking software
+- Game development
+- E-commerce calculations
+- Inventory management
+
+---
+
+## 📌 Key Points
+
+- `+` → Addition
+- `-` → Subtraction
+- `*` → Multiplication
+- `/` → Division
+- `%` → Returns the remainder
+- Integer division removes the decimal part.
