@@ -19,12 +19,12 @@ Completed: 7 / 150+
 - ✅ Java #005 – Data Types
 - ✅ Java #006 – Type Casting
 - ✅ Java #007 – Arithmetic Operators
+- ✅ Java #008 - Assignment Operators
 
 ---
 
 ## ⏳ Upcoming Topics
 
-- ⬜ Java #008 – Assignment Operators
 - ⬜ Java #009 – Relational Operators
 - ⬜ Java #010 – Logical Operators
 - ⬜ Java #011 – Unary Operators

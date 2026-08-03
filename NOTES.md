@@ -617,3 +617,62 @@ Modulus        : 0
 - `/` → Division
 - `%` → Returns the remainder
 - Integer division removes the decimal part.
+-
+
+# ☕ Java #008 - Assignment Operators
+
+## 📖 Definition
+
+Assignment operators are used to assign values to variables and update their existing values.
+
+They provide a shorter and cleaner way to perform arithmetic operations while assigning the result.
+
+---
+
+## 📚 Assignment Operators
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| = | Assign | a = 10 |
+| += | Add and Assign | a += 5 |
+| -= | Subtract and Assign | a -= 5 |
+| *= | Multiply and Assign | a *= 5 |
+| /= | Divide and Assign | a /= 5 |
+| %= | Modulus and Assign | a %= 5 |
+
+---
+
+## 💻 Example
+
+```java
+int number = 20;
+
+number += 10;
+number -= 5;
+number *= 2;
+number /= 5;
+number %= 3;
+```
+
+---
+
+## 🎯 Output
+
+```
+Initial Value : 20
+
+After += 10 : 30
+After -= 5  : 25
+After *= 2  : 50
+After /= 5  : 10
+After %= 3  : 1
+```
+
+---
+
+## 💡 Key Points
+
+- Assignment operators update the existing variable.
+- They reduce code length.
+- Improve code readability.
+- Frequently used in loops and calculations.

@@ -295,3 +295,27 @@ System.out.println(a % b);
 - `/` → Quotient
 - `%` → Remainder
 - Integer ÷ Integer = Integer
+-
+
+# 🚀 Java Assignment Operators Cheat Sheet
+
+```java
+a = b;      // Assignment
+a += b;     // a = a + b
+a -= b;     // a = a - b
+a *= b;     // a = a * b
+a /= b;     // a = a / b
+a %= b;     // a = a % b
+```
+
+### Example
+
+```java
+int number = 20;
+
+number += 10;   //30
+number -= 5;    //25
+number *= 2;    //50
+number /= 5;    //10
+number %= 3;    //1
+```

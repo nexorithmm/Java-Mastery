@@ -88,3 +88,17 @@
 - Interview Questions
 - Progress Update
 - Real-World Applications
+-
+
+## Java #008 - Assignment Operators
+
+### Added
+
+- Assignment operator explanation
+- Operator table
+- Java examples
+- Interview notes
+- Cheat sheet
+- Console output
+- Instagram professional cover
+- Social media content

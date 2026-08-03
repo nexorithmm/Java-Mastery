@@ -337,3 +337,56 @@ System.out.println(a / b);
 ## Q5. What happens when two integers are divided?
 
 The decimal part is discarded because integer division returns an integer.
+-
+
+# 💼 Java Interview Notes - Assignment Operators
+
+## Q1. What are Assignment Operators?
+
+Assignment operators assign values and update existing variables.
+
+Example:
+
+```java
+x += 5;
+```
+
+Equivalent to
+
+```java
+x = x + 5;
+```
+
+---
+
+## Q2. Difference between = and += ?
+
+= assigns a new value.
+
++= adds and updates the existing value.
+
+---
+
+## Q3. Which assignment operators are commonly used?
+
+- =
+- +=
+- -=
+- *=
+- /=
+- %=
+
+---
+
+## Q4. Are assignment operators used in real projects?
+
+Yes.
+
+They are frequently used inside:
+
+- Loops
+- Counters
+- Calculations
+- Algorithms
+- Games
+- Banking Applications
