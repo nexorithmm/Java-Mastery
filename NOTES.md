@@ -676,3 +676,99 @@ After %= 3  : 1
 - They reduce code length.
 - Improve code readability.
 - Frequently used in loops and calculations.
+-
+
+# ☕ Java #009 - Relational Operators
+
+## 📖 Introduction
+
+Relational operators are used to compare two values or expressions in Java. The result of every comparison is always a boolean value (`true` or `false`).
+
+They are commonly used in decision-making statements such as `if`, `if-else`, loops, and conditional expressions.
+
+---
+
+## 🔹 Relational Operators
+
+| Operator | Meaning |
+|----------|---------|
+| == | Equal To |
+| != | Not Equal To |
+| > | Greater Than |
+| < | Less Than |
+| >= | Greater Than or Equal To |
+| <= | Less Than or Equal To |
+
+---
+
+## 💻 Java Program
+
+```java
+public class RelationalOperatorsDemo {
+
+    public static void main(String[] args) {
+
+        int a = 20;
+        int b = 15;
+
+        System.out.println("===========================================");
+        System.out.println("            Relational Operators");
+        System.out.println("===========================================");
+
+        System.out.println();
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println();
+
+        System.out.println("a == b : " + (a == b));
+        System.out.println("a != b : " + (a != b));
+        System.out.println("a > b  : " + (a > b));
+        System.out.println("a < b  : " + (a < b));
+        System.out.println("a >= b : " + (a >= b));
+        System.out.println("a <= b : " + (a <= b));
+    }
+}
+```
+
+---
+
+## 📊 Output
+
+```
+===========================================
+            Relational Operators
+===========================================
+
+a = 20
+b = 15
+
+a == b : false
+a != b : true
+a > b  : true
+a < b  : false
+a >= b : true
+a <= b : false
+```
+
+---
+
+## ⏱️ Time Complexity
+
+O(1)
+
+---
+
+## 💾 Space Complexity
+
+O(1)
+
+---
+
+## ✅ Key Points
+
+- Used to compare two values.
+- Always returns a boolean value.
+- Does not modify variable values.
+- Frequently used with if-else statements and loops.

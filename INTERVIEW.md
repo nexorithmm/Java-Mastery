@@ -390,3 +390,44 @@ They are frequently used inside:
 - Algorithms
 - Games
 - Banking Applications
+---
+
+# 💼 Interview Questions
+
+## Q1. What are relational operators?
+
+They compare two values and return either true or false.
+
+---
+
+## Q2. What is the difference between = and ==?
+
+= assigns a value.
+
+== compares two values.
+
+---
+
+## Q3. What is the return type of relational operators?
+
+boolean
+
+---
+
+## Q4. Do relational operators change variable values?
+
+No.
+
+They only compare values.
+
+---
+
+## Q5. Where are relational operators used?
+
+- if
+- if-else
+- while
+- do-while
+- for
+- Conditional expressions
+

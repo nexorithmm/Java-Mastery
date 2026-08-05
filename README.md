@@ -47,6 +47,7 @@ A structured Java learning repository covering Java from beginner to advanced wi
 - ✅ Java #006 – Type Casting
 - ✅ Java #007 – Arithmetic Operators
 - ✅ Java #008 - Assignment Operators
+- ✅ Java #009 – Relational Operators
 
 ## 📂 Repository Documents
 

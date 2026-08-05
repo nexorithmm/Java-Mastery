@@ -319,3 +319,71 @@ number *= 2;    //50
 number /= 5;    //10
 number %= 3;    //1
 ```
+-
+
+# ☕ Java Cheat Sheet
+
+## Relational Operators
+
+### Operators
+
+==  → Equal To
+
+!=  → Not Equal To
+
+>   → Greater Than
+
+<   → Less Than
+
+>=  → Greater Than or Equal To
+
+<=  → Less Than or Equal To
+
+---
+
+### Example
+
+```java
+int a = 20;
+int b = 15;
+
+System.out.println(a > b);
+```
+
+Output
+
+```
+true
+```
+
+---
+
+### Returns
+
+All relational operators return
+
+```
+boolean
+```
+
+---
+
+### Time Complexity
+
+O(1)
+
+### Space Complexity
+
+O(1)
+
+---
+
+### Interview Tip
+
+Remember the difference:
+
+```
+=  → Assignment
+
+== → Comparison
+```
