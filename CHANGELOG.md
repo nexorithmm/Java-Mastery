@@ -117,3 +117,69 @@
 - Cheat Sheet
 - Interview Questions
 - Professional Cover
+---
+
+## Java #010 - Logical Operators
+
+### Added
+
+- Logical Operators
+- AND operator `&&`
+- OR operator `||`
+- NOT operator `!`
+- Truth tables
+- Java example program
+- Output
+- Real-world examples
+- Time Complexity
+- Space Complexity
+- Interview questions
+- Cheat sheet
+- Professional Java Mastery cover
+---
+
+````markdown
+---
+
+## [Java #011] — Unary Operators
+
+### Added
+
+- Unary Plus operator `+`
+- Unary Minus operator `-`
+- Increment operator `++`
+- Decrement operator `--`
+- Post-Increment `a++`
+- Pre-Increment `++a`
+- Post-Decrement `a--`
+- Pre-Decrement `--a`
+- Logical NOT operator `!`
+
+### Practiced
+
+- Difference between pre and post operators
+- Increment and decrement behavior
+- Boolean negation using `!`
+- Unary operator interview expressions
+
+### Added Class
+
+```text
+UnaryOperator.java
+````
+
+### Documentation Updated
+
+* `NOTES.md`
+* `CHEATSHEET.md`
+* `INTERVIEW.md`
+* `PROGRESS.md`
+
+### Status
+
+✅ Java #011 completed
+
+```
+```
+
+

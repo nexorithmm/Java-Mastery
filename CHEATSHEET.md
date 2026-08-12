@@ -387,3 +387,190 @@ Remember the difference:
 
 == → Comparison
 ```
+---
+
+# ☕ Java Mastery Cheat Sheet
+
+## #010 - Logical Operators
+
+### Operators
+
+```text
+&&  → AND
+||  → OR
+!   → NOT
+```
+
+---
+
+### AND (`&&`)
+
+Both conditions must be true.
+
+```text
+true  && true  → true
+true  && false → false
+false && true  → false
+false && false → false
+```
+
+---
+
+### OR (`||`)
+
+At least one condition must be true.
+
+```text
+true  || true  → true
+true  || false → true
+false || true  → true
+false || false → false
+```
+
+---
+
+### NOT (`!`)
+
+Reverses the boolean value.
+
+```text
+!true  → false
+!false → true
+```
+
+---
+
+### Example
+
+```java
+int age = 25;
+boolean hasLicense = true;
+
+System.out.println(age >= 18 && hasLicense);
+```
+
+Output:
+
+```text
+true
+```
+
+---
+
+### Quick Memory Trick
+
+```text
+&& → BOTH
+|| → ONE OR BOTH
+!  → REVERSE
+```
+
+---
+
+### Complexity
+
+```text
+Time  : O(1)
+Space : O(1)
+```
+
+---
+
+### Interview Tip
+
+Always remember:
+
+```text
+&& → all conditions must be true
+
+|| → at least one condition must be true
+
+!  → reverses true/false
+```
+
+````markdown
+---
+
+# 🔵 Java #011 - Unary Operators
+
+## Unary Operators
+
+Unary operators work on **one operand**.
+
+```text
++   → Unary Plus
+-   → Unary Minus
+++  → Increment
+--  → Decrement
+!   → Logical NOT
+````
+
+## Increment
+
+```text
+a++  → Post-Increment
+++a  → Pre-Increment
+```
+
+```text
+a++ → Use first → Increase
+++a → Increase first → Use
+```
+
+## Decrement
+
+```text
+a--  → Post-Decrement
+--a  → Pre-Decrement
+```
+
+```text
+a-- → Use first → Decrease
+--a → Decrease first → Use
+```
+
+## Logical NOT
+
+```text
+!true  → false
+!false → true
+```
+
+## Quick Example
+
+```java
+int a = 10;
+
+System.out.println(a++);  // 10
+System.out.println(++a);  // 12
+
+System.out.println(a--);  // 12
+System.out.println(--a);  // 10
+```
+
+## 🧠 Memory Trick
+
+```text
+POST  → Use → Change
+PRE   → Change → Use
+```
+
+## ⚡ Complexity
+
+```text
+Time  → O(1)
+Space → O(1)
+```
+
+## 🎯 Remember
+
+```text
+++ → +1
+-- → -1
+!  → Reverse boolean
+```
+
+**Java #011 — Unary Operators ✅**
+
+```
+```

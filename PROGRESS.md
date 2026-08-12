@@ -21,13 +21,13 @@ Completed: 7 / 150+
 - ✅ Java #007 – Arithmetic Operators
 - ✅ Java #008 - Assignment Operators
 - ✅ Java #009 - Relational Operators
+- ✅ Java #010 – Logical Operators
+- ✅ Java #011 – Unary Operators
 
 ---
 
 ## ⏳ Upcoming Topics
 
-- ⬜ Java #010 – Logical Operators
-- ⬜ Java #011 – Unary Operators
 - ⬜ Java #012 – Ternary Operator
 
 ---

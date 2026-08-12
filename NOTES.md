@@ -772,3 +772,447 @@ O(1)
 - Always returns a boolean value.
 - Does not modify variable values.
 - Frequently used with if-else statements and loops.
+---
+
+# ☕ Java #010 - Logical Operators
+
+## 📖 Introduction
+
+Logical operators are used to combine or reverse boolean conditions in Java.
+
+Java provides three main logical operators:
+
+| Operator | Name | Meaning |
+|----------|------|---------|
+| `&&` | AND | Both conditions must be true |
+| `||` | OR | At least one condition must be true |
+| `!` | NOT | Reverses the boolean value |
+
+---
+
+## 🔹 1. AND Operator (`&&`)
+
+The `&&` operator returns `true` only when both conditions are true.
+
+```java
+boolean result = true && true;
+System.out.println(result);
+```
+
+Output:
+
+```text
+true
+```
+
+Examples:
+
+```text
+true  && true  → true
+true  && false → false
+false && true  → false
+false && false → false
+```
+
+### Real-World Example
+
+```text
+Age >= 18 AND Has Driving License
+```
+
+Both conditions must be satisfied.
+
+---
+
+## 🔹 2. OR Operator (`||`)
+
+The `||` operator returns `true` when at least one condition is true.
+
+```java
+boolean result = true || false;
+System.out.println(result);
+```
+
+Output:
+
+```text
+true
+```
+
+Examples:
+
+```text
+true  || true  → true
+true  || false → true
+false || true  → true
+false || false → false
+```
+
+### Real-World Example
+
+```text
+Cash OR Card
+```
+
+Either payment method can be used.
+
+---
+
+## 🔹 3. NOT Operator (`!`)
+
+The `!` operator reverses a boolean value.
+
+```java
+boolean isStudent = false;
+
+System.out.println(!isStudent);
+```
+
+Output:
+
+```text
+true
+```
+
+Examples:
+
+```text
+!true  → false
+!false → true
+```
+
+---
+
+## 💻 Java Program
+
+```java
+public class LogicalOperatorsDemo {
+
+    public static void main(String[] args) {
+
+        int age = 25;
+        boolean hasLicense = true;
+        boolean isStudent = false;
+
+        System.out.println("=========================");
+        System.out.println("       Logical Operators");
+        System.out.println("=========================");
+
+        System.out.println();
+
+        System.out.println("age = " + age);
+        System.out.println("hasLicense = " + hasLicense);
+        System.out.println("isStudent = " + isStudent);
+
+        System.out.println();
+
+        System.out.println(
+            "age >= 18 && hasLicense : " +
+            (age >= 18 && hasLicense)
+        );
+
+        System.out.println(
+            "age < 18 || isStudent   : " +
+            (age < 18 || isStudent)
+        );
+
+        System.out.println(
+            "!isStudent              : " +
+            !isStudent
+        );
+    }
+}
+```
+
+---
+
+## 📊 Output
+
+```text
+=========================
+       Logical Operators
+=========================
+
+age = 25
+hasLicense = true
+isStudent = false
+
+age >= 18 && hasLicense : true
+age < 18 || isStudent   : false
+!isStudent              : true
+```
+
+---
+
+## 📋 Truth Tables
+
+### AND (`&&`)
+
+| A | B | A && B |
+|---|---|--------|
+| true | true | true |
+| true | false | false |
+| false | true | false |
+| false | false | false |
+
+### OR (`||`)
+
+| A | B | A || B |
+|---|---|--------|
+| true | true | true |
+| true | false | true |
+| false | true | true |
+| false | false | false |
+
+### NOT (`!`)
+
+| A | !A |
+|---|----|
+| true | false |
+| false | true |
+
+---
+
+## ⏱️ Time Complexity
+
+O(1)
+
+## 💾 Space Complexity
+
+O(1)
+
+---
+
+## ✅ Key Points
+
+- `&&` means AND.
+- `||` means OR.
+- `!` means NOT.
+- Logical operators work with boolean expressions.
+- They are commonly used in `if`, `else`, loops, and decision-making.
+- Logical operators return a boolean value.
+---
+
+````markdown
+---
+
+# 🔵 Java #011 - Unary Operators
+
+## 📌 What are Unary Operators?
+
+Unary operators operate on **only one operand**.
+
+```java
+int a = 10;
+a++;
+````
+
+Here, `++` operates only on the variable `a`.
+
+## 🔹 Unary Operators
+
+| Operator | Name        |
+| -------- | ----------- |
+| `+`      | Unary Plus  |
+| `-`      | Unary Minus |
+| `++`     | Increment   |
+| `--`     | Decrement   |
+| `!`      | Logical NOT |
+
+## ➕ Unary Plus
+
+The unary `+` operator represents a positive value.
+
+```java
+int a = 10;
+System.out.println(+a);
+```
+
+Output:
+
+```text
+10
+```
+
+## ➖ Unary Minus
+
+The unary `-` operator changes the sign of a value.
+
+```java
+int a = 10;
+System.out.println(-a);
+```
+
+Output:
+
+```text
+-10
+```
+
+## ⬆️ Increment Operator
+
+The `++` operator increases a value by `1`.
+
+```java
+a++;
+```
+
+is equivalent to:
+
+```java
+a = a + 1;
+```
+
+### Post-Increment
+
+```java
+a++;
+```
+
+```text
+Use first → Increase later
+```
+
+### Pre-Increment
+
+```java
+++a;
+```
+
+```text
+Increase first → Use later
+```
+
+## ⬇️ Decrement Operator
+
+The `--` operator decreases a value by `1`.
+
+```java
+a--;
+```
+
+is equivalent to:
+
+```java
+a = a - 1;
+```
+
+### Post-Decrement
+
+```java
+a--;
+```
+
+```text
+Use first → Decrease later
+```
+
+### Pre-Decrement
+
+```java
+--a;
+```
+
+```text
+Decrease first → Use later
+```
+
+## ❗ Logical NOT
+
+The `!` operator reverses a boolean value.
+
+```java
+boolean isJavaFun = true;
+
+System.out.println(!isJavaFun);
+```
+
+Output:
+
+```text
+false
+```
+
+Remember:
+
+```text
+true  → false
+false → true
+```
+
+## 🧠 Pre vs Post
+
+```text
+a++  → Use first → Increase
+++a  → Increase first → Use
+
+a--  → Use first → Decrease
+--a  → Decrease first → Use
+```
+
+## 💻 Practical Example
+
+```java
+package com.nexorithmm.java.basics;
+
+public class UnaryOperator {
+
+    public static void main(String[] args) {
+
+        int a = 10;
+
+        // Unary Plus
+        System.out.println(+a);
+
+        // Unary Minus
+        System.out.println(-a);
+
+        // Post-Increment: Use first, then increase
+        System.out.println(a++);
+
+        // Pre-Increment: Increase first, then use
+        System.out.println(++a);
+
+        // Post-Decrement: Use first, then decrease
+        System.out.println(a--);
+
+        // Pre-Decrement: Decrease first, then use
+        System.out.println(--a);
+
+        // Logical NOT
+        boolean isJavaFun = true;
+        System.out.println(!isJavaFun);
+    }
+}
+```
+
+## 🎯 Key Learning
+
+* Unary operators work on a single operand.
+* Unary `+` represents a positive value.
+* Unary `-` changes the sign.
+* `++` increases a value by `1`.
+* `--` decreases a value by `1`.
+* Prefix operators change the value before using it.
+* Postfix operators use the value before changing it.
+* `!` reverses a boolean value.
+
+## ⚡ Complexity
+
+Unary operators perform constant-time operations.
+
+```text
+Time  → O(1)
+Space → O(1)
+```
+
+## 🏆 Java #011 Status
+
+```text
+Topic  → Unary Operators
+Class  → UnaryOperator
+Status → ✅ Completed
+```
+
+```
+```
