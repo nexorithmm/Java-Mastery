@@ -181,5 +181,24 @@ UnaryOperator.java
 
 ```
 ```
+## ☕ Java #012 - Ternary Operator
 
+### Added
+
+- Ternary Operator concept
+- Ternary operator syntax
+- Simple if-else comparison
+- Eligibility checking example
+- Largest number example
+- Even/Odd example
+- Positive/Negative/Zero example
+- Smallest number example
+- Nested ternary operator
+- Ternary vs if-else comparison
+- Practice with increment operators and ternary
+- Notes update
+- Cheatsheet update
+- Interview questions
+- Progress update
+- Professional social media content
 

@@ -23,12 +23,9 @@ Completed: 7 / 150+
 - ✅ Java #009 - Relational Operators
 - ✅ Java #010 – Logical Operators
 - ✅ Java #011 – Unary Operators
+- ✅ Java #012 – Ternary Operator
 
 ---
-
-## ⏳ Upcoming Topics
-
-- ⬜ Java #012 – Ternary Operator
 
 ---
 

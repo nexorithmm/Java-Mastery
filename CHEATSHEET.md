@@ -574,3 +574,168 @@ Space → O(1)
 
 ```
 ```
+# ☕ Java #012 - Ternary Operator
+
+## 🔑 Core Syntax
+
+condition ? valueIfTrue : valueIfFalse;
+
+Think:
+
+Condition
+↓
+┌───────┐
+true   false
+↓       ↓
+value   value
+
+---
+
+## 🧠 Quick Understanding
+
+Ternary Operator
+↓
+Short form of simple if-else
+↓
+Returns a value
+
+---
+
+## 🔹 Common Examples
+
+### Check Eligibility
+
+int age = 20;
+
+String result = age >= 18 ? "Eligible" : "Not Eligible";
+
+Output:
+Eligible
+
+---
+
+### Find Largest
+
+int a = 10;
+int b = 20;
+
+int largest = a > b ? a : b;
+
+Output:
+20
+
+---
+
+### Even or Odd
+
+int number = 7;
+
+String type = number % 2 == 0 ? "Even" : "Odd";
+
+Output:
+Odd
+
+---
+
+### Find Smallest
+
+int x = 25;
+int y = 15;
+
+int smallest = x < y ? x : y;
+
+Output:
+15
+
+---
+
+## 🔄 Ternary vs if-else
+
+if-else:
+
+if (a > b) {
+largest = a;
+} else {
+largest = b;
+}
+
+Ternary:
+
+int largest = a > b ? a : b;
+
+Both can produce the same result.
+
+---
+
+## ⚠️ Nested Ternary
+
+A ternary can contain another ternary.
+
+Example:
+
+value > 0
+    ? "Positive"
+    : value < 0
+        ? "Negative"
+        : "Zero";
+
+Use nested ternary carefully.
+
+Too much nesting → reduced readability.
+
+---
+
+## 🎯 When To Use
+
+Simple condition
+→ Ternary
+
+Complex condition
+→ if-else
+
+Need to select one of two values
+→ Ternary
+
+---
+
+## 💡 Remember
+
+? → separates the condition from the true value
+
+: → separates the true value from the false value
+
+Pattern:
+
+condition ? trueValue : falseValue
+
+---
+
+## 🔥 Interview Point
+
+The ternary operator is an expression that evaluates a condition and returns one of two values.
+
+It is useful for concise conditional assignments.
+
+---
+
+## 📝 Quick Revision
+
+Eligibility:
+age >= 18 ? "Eligible" : "Not Eligible"
+
+Largest:
+a > b ? a : b
+
+Even/Odd:
+number % 2 == 0 ? "Even" : "Odd"
+
+Positive/Negative/Zero:
+value > 0 ? "Positive" : value < 0 ? "Negative" : "Zero"
+
+---
+
+## ✅ Java #012
+
+Topic: Ternary Operator
+
+Status: Completed

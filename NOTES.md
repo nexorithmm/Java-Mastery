@@ -1216,3 +1216,298 @@ Status → ✅ Completed
 
 ```
 ```
+# ☕ Java #012 - Ternary Operator
+
+## 📌 What is a Ternary Operator?
+
+The ternary operator is a conditional operator used to make a simple if-else decision in a single expression.
+
+It works with three operands:
+
+condition ? valueIfTrue : valueIfFalse
+
+---
+
+## 🎯 Why Do We Use It?
+
+The ternary operator is mainly used to simplify short and simple if-else conditions.
+
+### Using if-else
+
+int age = 20;
+String result;
+
+if (age >= 18) {
+result = "Eligible";
+} else {
+result = "Not Eligible";
+}
+
+### Using Ternary Operator
+
+int age = 20;
+
+String result = age >= 18 ? "Eligible" : "Not Eligible";
+
+The ternary version is shorter and useful when the condition is simple.
+
+---
+
+## 🧩 Syntax
+
+condition ? valueIfTrue : valueIfFalse;
+
+### Parts
+
+condition
+→ The condition that is evaluated.
+
+valueIfTrue
+→ Returned when the condition is true.
+
+valueIfFalse
+→ Returned when the condition is false.
+
+---
+
+## 🔹 Example 1 - Check Eligibility
+
+int age = 20;
+
+String result = age >= 18 ? "Eligible" : "Not Eligible";
+
+System.out.println(result);
+
+### Output
+
+Eligible
+
+### Explanation
+
+20 >= 18 is true, so the ternary operator selects "Eligible".
+
+---
+
+## 🔹 Example 2 - Find the Larger Number
+
+int a = 10;
+int b = 20;
+
+int largest = a > b ? a : b;
+
+System.out.println(largest);
+
+### Output
+
+20
+
+### Explanation
+
+10 > 20 is false, so the value of b is selected.
+
+---
+
+## 🔹 Example 3 - Check Even or Odd
+
+int number = 7;
+
+String type = number % 2 == 0 ? "Even" : "Odd";
+
+System.out.println(type);
+
+### Output
+
+Odd
+
+### Explanation
+
+7 % 2 == 0 is false, so "Odd" is selected.
+
+---
+
+## 🔹 Example 4 - Positive, Negative, or Zero
+
+int value = -5;
+
+String result = value > 0
+        ? "Positive"
+        : value < 0
+        ? "Negative"
+        : "Zero";
+
+System.out.println(result);
+
+### Output
+
+Negative
+
+### Explanation
+
+value > 0 is false.
+
+Then value < 0 is true.
+
+Therefore, "Negative" is selected.
+
+This is called a nested ternary operator.
+
+---
+
+## 🔹 Example 5 - Find the Smallest Number
+
+int x = 25;
+int y = 15;
+
+int smallest = x < y ? x : y;
+
+System.out.println(smallest);
+
+### Output
+
+15
+
+### Explanation
+
+25 < 15 is false, so y is selected.
+
+---
+
+## ⚠️ Nested Ternary
+
+A ternary operator can contain another ternary operator.
+
+Example:
+
+int value = -5;
+
+String result = value > 0
+        ? "Positive"
+        : value < 0
+        ? "Negative"
+        : "Zero";
+
+However, too many nested ternary operators can make the code difficult to read.
+
+Use them only when the logic remains simple and readable.
+
+---
+
+## 🆚 Ternary vs if-else
+
+### if-else
+
+int a = 10;
+int b = 20;
+
+int largest;
+
+if (a > b) {
+largest = a;
+} else {
+largest = b;
+}
+
+### Ternary
+
+int a = 10;
+int b = 20;
+
+int largest = a > b ? a : b;
+
+Both produce the same result.
+
+---
+
+## 🧠 Important Rules
+
+1. Ternary operator works with three operands.
+
+2. It uses the ? and : symbols.
+
+3. The expression before ? is the condition.
+
+4. The expression after ? is selected when the condition is true.
+
+5. The expression after : is selected when the condition is false.
+
+6. It is best suited for simple conditional expressions.
+
+7. Too many nested ternaries can reduce readability.
+
+8. For complex logic, normal if-else is generally more readable.
+
+9. The ternary operator is an expression because it produces a value.
+
+---
+
+## 🔥 Key Pattern
+
+condition ? trueValue : falseValue
+
+Simple condition
+↓
+Ternary
+
+Complex logic
+↓
+if-else
+
+---
+
+## 🎯 Interview Point
+
+The ternary operator is a concise alternative to a simple if-else when we need to select one of two values based on a condition.
+
+---
+
+## 📝 Practice
+
+Predict the output:
+
+int a = 5;
+int b = 10;
+
+int result = a++ > 5 ? a : ++b;
+
+System.out.println(result);
+System.out.println(a);
+System.out.println(b);
+
+### Answer
+
+result = 11
+a = 6
+b = 11
+
+### Reason
+
+a++ uses 5 first.
+
+5 > 5 is false.
+
+Then a becomes 6.
+
+Since the condition is false, ++b executes.
+
+b becomes 11.
+
+Therefore:
+
+result = 11
+a = 6
+b = 11
+
+---
+
+## ✅ Key Takeaway
+
+Ternary Operator:
+
+condition ? trueValue : falseValue
+
+Use it to write concise and readable code for simple conditional decisions.
+
+Simple logic → Ternary
+Complex logic → if-else
+
+Java #012 - Completed ✅

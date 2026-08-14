@@ -50,6 +50,7 @@ A structured Java learning repository covering Java from beginner to advanced wi
 - ✅ Java #009 – Relational Operators
 - ✅ Java #010 – Logical Operators
 - ✅ Java #011 – Unary Operators
+- ✅ Java #012 – Ternary Operator
 
 ## 📂 Repository Documents
 
