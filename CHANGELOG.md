@@ -201,4 +201,31 @@ UnaryOperator.java
 - Interview questions
 - Progress update
 - Professional social media content
+---
+
+# 📝 Changelog
+
+## [Java #013] - Switch Statement
+
+### Added
+
+* Introduced the Java `switch` statement for multi-way decision making.
+* Covered `switch`, `case`, `break`, and `default`.
+* Explained traditional switch syntax and execution flow.
+* Covered the `break` statement and its role in preventing fall-through.
+* Explained fall-through behavior when `break` is omitted.
+* Demonstrated multiple cases sharing the same code block.
+* Covered the modern arrow (`->`) switch syntax.
+* Explained why `break` is not required with arrow-style cases.
+* Introduced switch expressions that produce values.
+* Compared `switch` with `if-else`.
+* Added practical examples and output-based practice.
+* Added interview-focused questions and quick revision points.
+
+### Status
+
+```text
+Java #013 → Switch Statement → ✅ Completed
+```
+
 

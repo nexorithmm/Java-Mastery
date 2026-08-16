@@ -599,3 +599,522 @@ Multiple nested conditions
 ---
 
 ## ✅ Java #012 Interview Ready
+---
+
+# 🎤 Java #013 - Switch Statement Interview Questions
+
+## 📌 Basic Interview Questions
+
+### 1. What is a switch statement in Java?
+
+A `switch` statement is a decision-making statement used to execute one block of code from multiple possible choices based on the value of an expression.
+
+---
+
+### 2. Why do we use a switch statement?
+
+We use `switch` when we need to compare one expression against multiple fixed values.
+
+It can make multi-option decision logic more readable than multiple `if-else-if` statements.
+
+---
+
+### 3. What are the main components of a switch statement?
+
+The main components are:
+
+* `switch`
+* `case`
+* `break`
+* `default`
+
+Example:
+
+```java
+switch (value) {
+
+    case 1:
+        // code
+        break;
+
+    case 2:
+        // code
+        break;
+
+    default:
+        // code
+}
+```
+
+---
+
+### 4. What is the purpose of the `case` keyword?
+
+The `case` keyword defines a possible value that can be matched against the switch expression.
+
+Example:
+
+```java
+int day = 2;
+
+switch (day) {
+
+    case 1:
+        System.out.println("Monday");
+        break;
+
+    case 2:
+        System.out.println("Tuesday");
+        break;
+}
+```
+
+Here, `case 2` matches the value of `day`.
+
+---
+
+### 5. What is the purpose of the `break` statement in switch?
+
+The `break` statement terminates the switch after the matching case is executed.
+
+Example:
+
+```java
+int number = 2;
+
+switch (number) {
+
+    case 1:
+        System.out.println("One");
+        break;
+
+    case 2:
+        System.out.println("Two");
+        break;
+}
+```
+
+Output:
+
+```text
+Two
+```
+
+The `break` prevents execution from continuing into the following cases.
+
+---
+
+### 6. What happens if we omit `break`?
+
+If `break` is omitted in a traditional switch statement, execution continues into the following cases.
+
+This behavior is called **fall-through**.
+
+Example:
+
+```java
+int number = 2;
+
+switch (number) {
+
+    case 1:
+        System.out.println("One");
+
+    case 2:
+        System.out.println("Two");
+
+    case 3:
+        System.out.println("Three");
+        break;
+}
+```
+
+Output:
+
+```text
+Two
+Three
+```
+
+---
+
+### 7. What is fall-through in switch?
+
+Fall-through occurs when a matching case continues executing the statements of subsequent cases because there is no `break`.
+
+```text
+Matching case
+     ↓
+Execute code
+     ↓
+Next case
+     ↓
+Next case
+     ↓
+break
+```
+
+---
+
+### 8. What is the purpose of the `default` case?
+
+The `default` case executes when none of the cases match the switch expression.
+
+Example:
+
+```java
+int day = 8;
+
+switch (day) {
+
+    case 1:
+        System.out.println("Monday");
+        break;
+
+    default:
+        System.out.println("Invalid Day");
+}
+```
+
+Output:
+
+```text
+Invalid Day
+```
+
+---
+
+## 🔹 Intermediate Interview Questions
+
+### 9. Can multiple cases execute the same block of code?
+
+Yes.
+
+Multiple cases can share the same block of code.
+
+Example:
+
+```java
+int day = 6;
+
+switch (day) {
+
+    case 6:
+    case 7:
+        System.out.println("Weekend");
+        break;
+
+    default:
+        System.out.println("Weekday");
+}
+```
+
+Output:
+
+```text
+Weekend
+```
+
+---
+
+### 10. What is the difference between switch and if-else?
+
+| switch                                   | if-else                         |
+| ---------------------------------------- | ------------------------------- |
+| Useful for multiple fixed values         | Useful for complex conditions   |
+| Good for fixed choices                   | Good for ranges and expressions |
+| Can improve readability for many choices | More flexible for conditions    |
+| Uses `case` values                       | Uses boolean conditions         |
+
+Example:
+
+```java
+switch (choice) {
+    case 1:
+        // code
+        break;
+}
+```
+
+```java
+if (choice == 1) {
+    // code
+}
+```
+
+---
+
+### 11. What is a switch expression?
+
+A switch expression is a form of switch that produces a value.
+
+Example:
+
+```java
+int day = 2;
+
+String result = switch (day) {
+
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    default -> "Invalid";
+};
+
+System.out.println(result);
+```
+
+Output:
+
+```text
+Tuesday
+```
+
+---
+
+### 12. What is the difference between a switch statement and a switch expression?
+
+A switch statement is mainly used to perform an action.
+
+A switch expression produces a value.
+
+### Switch Statement
+
+```java
+switch (day) {
+
+    case 1:
+        System.out.println("Monday");
+        break;
+}
+```
+
+### Switch Expression
+
+```java
+String result = switch (day) {
+
+    case 1 -> "Monday";
+    default -> "Invalid";
+};
+```
+
+---
+
+### 13. What is the arrow (`->`) syntax in switch?
+
+The arrow syntax provides a modern way to write switch cases.
+
+Example:
+
+```java
+int day = 2;
+
+switch (day) {
+
+    case 1 -> System.out.println("Monday");
+    case 2 -> System.out.println("Tuesday");
+    default -> System.out.println("Invalid");
+}
+```
+
+It is more concise than the traditional `case`, statement, and `break` syntax.
+
+---
+
+### 14. Is `break` required with arrow-style switch cases?
+
+No.
+
+With arrow-style switch cases, `break` is not required.
+
+```java
+case 1 -> System.out.println("Monday");
+```
+
+The arrow-style case does not fall through into the next case.
+
+---
+
+### 15. Can a switch expression return a value?
+
+Yes.
+
+Example:
+
+```java
+int number = 2;
+
+String result = switch (number) {
+
+    case 1 -> "One";
+    case 2 -> "Two";
+    default -> "Unknown";
+};
+```
+
+Here, the switch expression returns `"Two"`.
+
+---
+
+## 🧠 Output-Based Interview Questions
+
+### 16. What is the output?
+
+```java
+int x = 2;
+
+switch (x) {
+
+    case 1:
+        System.out.print("A");
+
+    case 2:
+        System.out.print("B");
+
+    case 3:
+        System.out.print("C");
+        break;
+
+    default:
+        System.out.print("D");
+}
+```
+
+### Answer
+
+```text
+BC
+```
+
+### Explanation
+
+`x` is `2`, so execution starts at `case 2`.
+
+`B` is printed.
+
+There is no `break` after `case 2`, so execution falls through to `case 3`.
+
+`C` is printed.
+
+Then `break` terminates the switch.
+
+---
+
+### 17. What is the output?
+
+```java
+int day = 7;
+
+switch (day) {
+
+    case 6:
+    case 7:
+        System.out.println("Weekend");
+        break;
+
+    default:
+        System.out.println("Weekday");
+}
+```
+
+### Answer
+
+```text
+Weekend
+```
+
+### Explanation
+
+Both `case 6` and `case 7` share the same block.
+
+Since `day` is `7`, the `"Weekend"` block executes.
+
+---
+
+### 18. What is the output?
+
+```java
+int number = 5;
+
+switch (number) {
+
+    case 1:
+        System.out.println("One");
+        break;
+
+    case 2:
+        System.out.println("Two");
+        break;
+
+    default:
+        System.out.println("Other");
+}
+```
+
+### Answer
+
+```text
+Other
+```
+
+### Explanation
+
+There is no matching case for `5`, so the `default` block executes.
+
+---
+
+## 🔥 Interview Quick Revision
+
+```text
+switch
+   ↓
+Multi-way decision making
+
+case
+   ↓
+Possible matching value
+
+break
+   ↓
+Terminates traditional switch
+
+default
+   ↓
+Executes when no case matches
+
+No break
+   ↓
+Fall-through
+
+case value ->
+   ↓
+Modern switch syntax
+
+switch expression
+   ↓
+Produces a value
+```
+
+---
+
+## 🎯 Key Interview Takeaway
+
+The `switch` statement is useful for selecting one of multiple fixed choices.
+
+Remember these five points:
+
+1. `case` defines possible values.
+2. `break` prevents fall-through in traditional switch.
+3. Missing `break` can cause fall-through.
+4. `default` handles unmatched values.
+5. Modern switch expressions can return values.
+
+---
+
+## 🏆 Java #013 Status
+
+```text
+Topic  → Switch Statement
+Class  → SwitchStatement
+Status → ✅ Completed
+```

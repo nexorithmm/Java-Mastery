@@ -739,3 +739,269 @@ value > 0 ? "Positive" : value < 0 ? "Negative" : "Zero"
 Topic: Ternary Operator
 
 Status: Completed
+---
+
+# ☕ Java #013 - Switch Statement Cheat Sheet
+
+## 📌 Definition
+
+The `switch` statement is used for **multi-way decision making** by comparing one expression against multiple fixed values.
+
+---
+
+## 🧩 Basic Syntax
+
+```java
+switch (expression) {
+
+    case value1:
+        // code
+        break;
+
+    case value2:
+        // code
+        break;
+
+    default:
+        // code
+}
+```
+
+---
+
+## 🔑 Important Keywords
+
+| Keyword   | Purpose                           |
+| --------- | --------------------------------- |
+| `switch`  | Evaluates the expression          |
+| `case`    | Defines a possible matching value |
+| `break`   | Exits the traditional switch      |
+| `default` | Executes when no case matches     |
+
+---
+
+## 💻 Example
+
+```java
+int day = 2;
+
+switch (day) {
+
+    case 1:
+        System.out.println("Monday");
+        break;
+
+    case 2:
+        System.out.println("Tuesday");
+        break;
+
+    case 3:
+        System.out.println("Wednesday");
+        break;
+
+    default:
+        System.out.println("Invalid Day");
+}
+```
+
+Output:
+
+```text
+Tuesday
+```
+
+---
+
+## ⚠️ Fall-Through
+
+If `break` is omitted, execution continues into the next cases.
+
+```java
+int number = 2;
+
+switch (number) {
+
+    case 1:
+        System.out.print("A");
+
+    case 2:
+        System.out.print("B");
+
+    case 3:
+        System.out.print("C");
+        break;
+}
+```
+
+Output:
+
+```text
+BC
+```
+
+### Remember
+
+```text
+No break
+   ↓
+Fall-through
+   ↓
+Next case executes
+```
+
+---
+
+## 🔗 Multiple Cases
+
+Multiple cases can share the same block.
+
+```java
+int day = 6;
+
+switch (day) {
+
+    case 6:
+    case 7:
+        System.out.println("Weekend");
+        break;
+
+    default:
+        System.out.println("Weekday");
+}
+```
+
+Output:
+
+```text
+Weekend
+```
+
+---
+
+# 🆕 Modern Switch Syntax
+
+Java provides arrow (`->`) syntax for switch cases.
+
+```java
+int day = 2;
+
+switch (day) {
+
+    case 1 -> System.out.println("Monday");
+    case 2 -> System.out.println("Tuesday");
+    case 3 -> System.out.println("Wednesday");
+    default -> System.out.println("Invalid Day");
+}
+```
+
+### Important
+
+```text
+case value -> statement
+```
+
+* No `break` required.
+* No traditional fall-through.
+* Cleaner and more concise.
+
+---
+
+## 🔥 Switch Expression
+
+A switch expression can produce a value.
+
+```java
+int day = 2;
+
+String result = switch (day) {
+
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    case 3 -> "Wednesday";
+    default -> "Invalid Day";
+};
+
+System.out.println(result);
+```
+
+Output:
+
+```text
+Tuesday
+```
+
+---
+
+## 🆚 Switch vs if-else
+
+| Switch                             | if-else                  |
+| ---------------------------------- | ------------------------ |
+| Fixed values                       | Complex conditions       |
+| Multiple choices                   | Ranges/conditions        |
+| Uses `case`                        | Uses boolean expressions |
+| Good readability for fixed options | More flexible            |
+
+### Quick Rule
+
+```text
+Fixed choices → switch
+
+Complex conditions / ranges → if-else
+```
+
+---
+
+## 🧠 Quick Revision
+
+```text
+switch
+   ↓
+Multi-way decision
+
+case
+   ↓
+Matching value
+
+break
+   ↓
+Exit switch
+
+default
+   ↓
+No case matches
+
+No break
+   ↓
+Fall-through
+
+case value ->
+   ↓
+Modern syntax
+
+switch expression
+   ↓
+Returns a value
+```
+
+---
+
+## 🎯 Key Points
+
+* `switch` is used for multi-way decision making.
+* `case` defines matching values.
+* `break` prevents fall-through in traditional switch.
+* Missing `break` can cause fall-through.
+* `default` handles unmatched values.
+* Multiple cases can share one block.
+* Arrow syntax uses `->`.
+* Arrow-style cases do not require `break`.
+* Switch expressions can return values.
+
+---
+
+## 🏆 Java #013 Status
+
+```text
+Topic  → Switch Statement
+Status → ✅ Completed
+```

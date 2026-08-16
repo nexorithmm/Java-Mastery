@@ -24,6 +24,7 @@ Completed: 7 / 150+
 - ✅ Java #010 – Logical Operators
 - ✅ Java #011 – Unary Operators
 - ✅ Java #012 – Ternary Operator
+- ✅ Java #013 – Switch Statement
 
 ---
 
