@@ -52,6 +52,7 @@ A structured Java learning repository covering Java from beginner to advanced wi
 - ✅ Java #011 – Unary Operators
 - ✅ Java #012 – Ternary Operator
 - ✅ Java #013 – Switch Statement
+- ✅ Java #014.1 – while Loop
 
 ## 📂 Repository Documents
 

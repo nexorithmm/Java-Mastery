@@ -6,10 +6,9 @@
 
 ## 📊 Progress
 
-Completed: 7 / 150+
+Completed: 13 / 150+
 
 ---
-
 ## ✅ Basics
 
 - ✅ Java #001 – Introduction to Java
@@ -25,6 +24,7 @@ Completed: 7 / 150+
 - ✅ Java #011 – Unary Operators
 - ✅ Java #012 – Ternary Operator
 - ✅ Java #013 – Switch Statement
+- ✅ Java #014.1 – while Loop
 
 ---
 

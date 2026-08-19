@@ -1005,3 +1005,144 @@ Returns a value
 Topic  → Switch Statement
 Status → ✅ Completed
 ```
+---
+
+# Java Mastery #014.1 — while Loop Cheat Sheet
+
+## Definition
+
+A `while` loop repeatedly executes a block of code while a condition is `true`.
+
+## Syntax
+
+```java
+while (condition) {
+    // statements
+}
+```
+
+## Basic Example
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+```
+
+### Output
+
+```text
+1
+2
+3
+4
+5
+```
+
+## Execution Flow
+
+```text
+Initialize
+    ↓
+Check Condition
+    ↓
+true → Execute → Update → Repeat
+    ↓
+false
+    ↓
+Stop
+```
+
+## Key Points
+
+- `while` is a **pre-test loop**.
+- The condition is checked before every iteration.
+- It can execute **zero or more times**.
+- If the condition is initially `false`, the body does not execute.
+- The loop variable should be updated appropriately.
+- Incorrect updating can create an infinite loop.
+
+## Even Numbers Example
+
+```java
+int i = 2;
+
+while (i <= 10) {
+    System.out.println(i);
+    i += 2;
+}
+```
+
+Output:
+
+```text
+2
+4
+6
+8
+10
+```
+
+## Countdown Example
+
+```java
+int i = 10;
+
+while (i >= 1) {
+    System.out.print(i + " ");
+    i -= 2;
+}
+```
+
+Output:
+
+```text
+10 8 6 4 2
+```
+
+## No Execution Example
+
+```java
+int i = 5;
+
+while (i < 5) {
+    System.out.println(i);
+}
+```
+
+Output:
+
+```text
+No output
+```
+
+Because:
+
+```text
+5 < 5 → false
+```
+
+## Infinite Loop
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+}
+```
+
+`i` is never updated, so the condition remains `true`.
+
+## Important Pattern
+
+```text
+Condition → Execute → Update → Repeat
+```
+
+## Remember
+
+`while` = **check first, execute later**.

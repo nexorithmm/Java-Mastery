@@ -1118,3 +1118,78 @@ Topic  → Switch Statement
 Class  → SwitchStatement
 Status → ✅ Completed
 ```
+---
+
+# Java Mastery #014.1 — while Loop
+
+## Interview Questions
+
+### 1. What is a while loop?
+
+A `while` loop repeatedly executes a block of code as long as the given condition is `true`.
+
+### 2. Why is a while loop called a pre-test loop?
+
+Because the condition is checked **before** the loop body is executed.
+
+### 3. Can a while loop execute zero times?
+
+Yes.
+
+```java
+int i = 5;
+
+while (i < 5) {
+    System.out.println(i);
+}
+```
+
+The condition is `false` initially, so the loop body does not execute.
+
+### 4. What happens if the condition of a while loop always remains true?
+
+It creates an **infinite loop**.
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+}
+```
+
+Here `i` is never updated, so the condition remains `true`.
+
+### 5. What is the basic execution flow of a while loop?
+
+```text
+Condition
+    ↓
+true
+    ↓
+Execute
+    ↓
+Update
+    ↓
+Check condition again
+    ↓
+false → Stop
+```
+
+### 6. When should we use a while loop?
+
+A `while` loop is useful when repeated execution depends on a condition and the number of iterations may not be known beforehand.
+
+### 7. What is the difference between a while loop and a do-while loop?
+
+A `while` loop checks the condition **before** execution, whereas a `do-while` loop checks the condition **after** execution.
+
+Therefore, a `while` loop can execute zero times, while a `do-while` loop executes at least once.
+
+### Interview Tip
+
+Remember:
+
+> `while` = check first, execute later.
+
+Java Mastery #014.1 — while Loop completed.

@@ -227,5 +227,32 @@ UnaryOperator.java
 ```text
 Java #013 → Switch Statement → ✅ Completed
 ```
+---
 
+# Changelog
+
+## Java Mastery #014.1 — while Loop
+
+### Added
+
+- Added `while` loop fundamentals.
+- Added `while` loop syntax and execution flow.
+- Added basic `while` loop examples.
+- Added even-number example.
+- Added countdown example.
+- Added multiplication pattern example.
+- Added pre-test loop behavior.
+- Added infinite loop example.
+- Added important points and common use cases.
+- Added `WhileLoopExample` class.
+- Added interview notes for `while` loop.
+- Added `while` loop cheat sheet.
+
+### Class Added
+
+`WhileLoopExample`
+
+### Status
+
+Java Mastery #014.1 — while Loop completed.
 

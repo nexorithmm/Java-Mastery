@@ -2141,3 +2141,221 @@ Simple fixed choices → `switch`
 Complex conditions or ranges → `if-else`
 
 Java #013 - Completed ✅
+---
+
+# Java Mastery #014.1 — while Loop
+
+## 1. What is a while Loop?
+
+A `while` loop is a looping statement used to repeatedly execute a block of code as long as a given condition is `true`.
+
+The condition is checked before every iteration.
+
+## 2. Syntax
+
+```java
+while (condition) {
+    // statements
+}
+```
+
+## 3. Basic Example
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+```
+
+### Output
+
+```text
+1
+2
+3
+4
+5
+```
+
+## 4. How while Loop Works
+
+```text
+Initialize
+    ↓
+Check Condition
+    ↓
+Condition true?
+    ↓ Yes
+Execute Statements
+    ↓
+Update Variable
+    ↓
+Check Condition Again
+    ↓
+Condition false → Stop
+```
+
+## 5. Example: Print Even Numbers
+
+```java
+int i = 2;
+
+while (i <= 10) {
+    System.out.println(i);
+    i += 2;
+}
+```
+
+### Output
+
+```text
+2
+4
+6
+8
+10
+```
+
+## 6. Example: Count Down
+
+```java
+int i = 10;
+
+while (i >= 1) {
+    System.out.print(i + " ");
+    i -= 2;
+}
+```
+
+### Output
+
+```text
+10 8 6 4 2
+```
+
+## 7. Example: Multiplication Pattern
+
+```java
+int i = 1;
+
+while (i < 10) {
+    System.out.print(i + " ");
+    i *= 2;
+}
+```
+
+### Output
+
+```text
+1 2 4 8
+```
+
+## 8. Condition Checked Before Execution
+
+A `while` loop is a **pre-test loop**.
+
+```java
+int i = 5;
+
+while (i < 5) {
+    System.out.println(i);
+}
+```
+
+### Output
+
+```text
+No output
+```
+
+Because:
+
+```text
+5 < 5 → false
+```
+
+The loop body never executes.
+
+## 9. Infinite Loop
+
+If the loop variable is not updated correctly, the condition may remain `true`.
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+}
+```
+
+Here `i` never changes, so the condition remains true.
+
+This creates an **infinite loop**.
+
+## 10. Important Points
+
+- `while` repeatedly executes code while the condition is `true`.
+- The condition is checked before every iteration.
+- `while` is a pre-test loop.
+- If the condition is initially `false`, the body does not execute.
+- The loop variable should be updated appropriately.
+- Incorrect updating can create an infinite loop.
+- `while` is useful when the number of iterations is not necessarily known in advance.
+
+## 11. Common Use Cases
+
+- Repeating an operation until a condition changes.
+- Reading input until a specific condition is reached.
+- Menu-driven programs.
+- Processing data until a condition is satisfied.
+- Repeating operations when the number of iterations is not known beforehand.
+
+## 12. Key Pattern
+
+```text
+Condition → Execute → Update → Repeat
+```
+
+## 13. Class Example
+
+```java
+package com.nexorithmm.java.basics;
+
+public class WhileLoopExample {
+
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+```
+
+### Output
+
+```text
+1
+2
+3
+4
+5
+```
+
+## 14. Summary
+
+The `while` loop is used to repeatedly execute statements while a condition remains `true`.
+
+The most important thing to remember is:
+
+```text
+Check → Execute → Update → Repeat
+```
+
+Java Mastery #014.1 — while Loop completed.
